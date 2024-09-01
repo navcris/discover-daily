@@ -17,7 +17,7 @@ export const NavBar: React.FC<NavBarProps> = ({ children }) => {
         id="custom-navbar-css"
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/home">
+          <Link className="navbar-brand" to="/">
             <img
               src="\discover daily.png"
               alt="Logo"
