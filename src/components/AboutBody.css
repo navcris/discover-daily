@@ -1,0 +1,55 @@
+.about-article-body {
+    width: 800px;
+    background-color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
+}
+
+
+.about-article-container {
+    background-color: white;
+    height: 100%;
+    
+    align-items: center;
+    margin:0;
+}
+
+p {
+    font-family: "Exo 2", sans-serif !important;
+    padding: 30px;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 1.5rem !important;
+}
+
+.about-article-wrapper {
+    display: flex;
+}
+
+.about-picture {
+    display: block !important;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.email-link {
+    text-align: center;
+    font-family: "Exo 2", sans-serif !important;
+    padding: 30px;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 1.5rem !important;
+    text-decoration: none;
+}
+
+.linkedin-link{
+    text-align: center;
+    font-family: "Exo 2", sans-serif !important;
+    padding: 30px;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 1.5rem !important;
+    text-decoration: none;
+}
