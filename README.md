@@ -1,1 +1,1 @@
-# wonder-weekly
+# discover-daily
