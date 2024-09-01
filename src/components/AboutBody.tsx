@@ -17,7 +17,7 @@ const AboutBody = () => {
             sensitive content.
           </p>
           <h2>About the Creator</h2>
-          <img src="public\about.JPG" className="about-picture"></img>
+          <img src="public/about.JPG" className="about-picture"></img>
           <p>
             Hello! My name is Navarro Cristani and I am a 19 year old aspiring
             Software Engineer passionate about teaching, learning, and making
