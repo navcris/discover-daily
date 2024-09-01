@@ -1,0 +1,47 @@
+.card{
+    flex: 1 1 calc(33.333% - 32px);
+    box-sizing: border-box;
+    width: 500px;
+    
+    padding: 16px; 
+    margin: 16px;
+    padding: 3rem;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  transition: transform .2s;
+}
+
+
+
+
+.card-title{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.card-text{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem !important;
+  
+  
+}
+
+
+
+
+
+
+.card:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}

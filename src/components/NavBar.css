@@ -1,0 +1,40 @@
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: 	#062c43  !important;
+}
+
+#custom-navbar-css {
+  --bs-bg-opacity: 1;
+  background-color: 	#1a1818 !important;
+}
+
+.navbar-brand {
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6rem !important;
+}
+.offcanvas-title{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 2.4rem;
+}
+.offcanvas-body{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+a{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
