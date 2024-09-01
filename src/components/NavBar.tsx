@@ -41,7 +41,7 @@ export const NavBar: React.FC<NavBarProps> = ({ children }) => {
           <div
             className="offcanvas offcanvas-end text-bg-dark"
             tabIndex={-1}
-            id="offcanvasDarkNavbar"
+            id="custom-text-bg-dark"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
             <div className="offcanvas-header">
