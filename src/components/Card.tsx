@@ -13,7 +13,7 @@ const Card = ({ Title, Img_src, Blurb }: Props) => {
         <div className="card">
           <img src={Img_src} className="card-img-top" alt={Title} />
           <h3 className="card-title">{Title}</h3>
-          <p className="card-text">{Blurb}</p>
+          <p className="card-text">{Blurb.substring(0, 250) + "..."}</p>
         </div>
       </div>
     </>
