@@ -61,7 +61,7 @@ export const NavBar: React.FC<NavBarProps> = ({ children }) => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/home"
+                    to="/"
                   >
                     Home
                   </Link>
