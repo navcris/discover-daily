@@ -63,7 +63,9 @@ const AllCards = () => {
               <div>
                 <Card
                   Title={item.title || "Article Not Found"}
-                  Blurb={item.content[1]}
+                  Blurb={item.content[1].length < 55
+                      ? item.content[2]
+                      : item.content[1]}
                   Img_src={`https://flask-discover-backend-73452853f661.herokuapp.com/imgs/${item.content[0].slice(
                     1
                   )}.jpg`}
