@@ -30,7 +30,9 @@ const ArticleBody = ({ Title, URL, content }: Props) => {
           ) : item.charAt(0) === "*" ? (
             <div className="img-wrapper">
               <img
-                src={"/imgs/" + item.slice(1) + ".jpg"}
+                src={`https://flask-discover-backend-73452853f661.herokuapp.com/imgs/${item.slice(
+                  1
+                )}.jpg`}
                 key={index}
                 className="img-inside"
               />
