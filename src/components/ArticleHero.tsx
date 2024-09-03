@@ -13,7 +13,9 @@ function ArticleHero({ Title, content }: Props) {
     <div className="hero-container">
       <img
         className="main-img"
-        src={"/imgs/" + content[0].slice(1) + ".jpg"}
+        src={`https://flask-discover-backend-73452853f661.herokuapp.com/imgs/${content[0].slice(
+          1
+        )}.jpg`}
       ></img>
       <div className="title-container">
         <h1 className="main-title">{Title}</h1>
