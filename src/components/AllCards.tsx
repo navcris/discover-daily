@@ -4,8 +4,21 @@ import "./AllCards.css";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+interface Article {
+  title: string;
+  URL: string;
+  content: string[];
+}
+
 const AllCards = () => {
   const [cards, setCards] = useState("triple");
+  const [data, setData] = useState<Article[] | null>(null);
+
+  useEffect(() => {
+    fetch("https://flask-discover-backend-73452853f661.herokuapp.com/data")
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  }, []);
 
   const showCards = () => {
     if (window.innerWidth <= 1170) {
@@ -36,26 +49,32 @@ const AllCards = () => {
             : "row row-cols-1 row-cols-3 g-4"
         }
       >
-        {data.map((item) => (
-          <Link
-            to={"/article/$" + item.title}
-            state={{
-              title: item.title || "No Title",
-              URL: item.URL || "No URL",
-              content: item.content || "No Article Body",
-            }}
-            className="custom-link"
-          >
-            <div>
-              <Card
-                Title={item.title || "Article Not Found"}
-                Blurb={item.content[1]}
-                Img_src={"./imgs/" + item.content[0].slice(1) + ".jpg"}
-                key={item.title}
-              ></Card>
-            </div>
-          </Link>
-        ))}
+        {data ? (
+          data.map((item) => (
+            <Link
+              to={"/article/$" + item.title}
+              state={{
+                title: item.title || "No Title",
+                URL: item.URL || "No URL",
+                content: item.content || "No Article Body",
+              }}
+              className="custom-link"
+            >
+              <div>
+                <Card
+                  Title={item.title || "Article Not Found"}
+                  Blurb={item.content[1]}
+                  Img_src={`https://flask-discover-backend-73452853f661.herokuapp.com/imgs/${item.content[0].slice(
+                    1
+                  )}.jpg`}
+                  key={item.title}
+                ></Card>
+              </div>
+            </Link>
+          ))
+        ) : (
+          <div></div>
+        )}
       </div>
     </div>
   );
