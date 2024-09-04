@@ -21,7 +21,7 @@ transform: scale(1.05);
 cursor: pointer;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
 
 
 .footer-container {
@@ -35,7 +35,7 @@ cursor: pointer;
 font-optical-sizing: auto;
 font-weight: 400;
 font-style: normal;
-font-size: 1.6rem !important;
+font-size: 2rem !important;
 color: white;
 text-align: center;
 padding: 3.5rem;
@@ -49,6 +49,6 @@ padding: 3.5rem;
   font-size: 2rem !important;
   color: white;
   text-align: center;
-  padding: 3.5rem;
+  padding: 1rem !important;
 }
 }
