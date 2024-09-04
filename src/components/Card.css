@@ -3,8 +3,8 @@
     box-sizing: border-box;
     width: 31.25rem;
     
-    padding: 1rem; 
-    margin: 1rem;
+    
+    margin: .5rem;
     padding: 3rem;
     background: #fff;
     box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
@@ -14,8 +14,6 @@
   font-style: normal;
   transition: transform .2s;
 }
-
-
 
 
 .card-title{
@@ -35,13 +33,9 @@
   
 }
 
-
-
-
-
-
 .card:hover{
     -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05); 
 }
+
