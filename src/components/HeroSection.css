@@ -63,9 +63,9 @@ body {
   
 }
 video {
-  object-fit: cover;
+  object-fit: contain;
   
-  position: fixed;
+  position: relative;
   z-index: -1;
 }
 
