@@ -1,5 +1,5 @@
 .about-article-body {
-    width: 800px;
+    width: 50rem;
     background-color: white;
     max-width: fit-content;
     margin-left: auto;
@@ -19,7 +19,7 @@
 
 p {
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 1.5rem !important;
@@ -37,7 +37,7 @@ p {
 .email-link {
     text-align: center;
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 1.5rem !important;
@@ -47,7 +47,7 @@ p {
 .linkedin-link{
     text-align: center;
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 1.5rem !important;

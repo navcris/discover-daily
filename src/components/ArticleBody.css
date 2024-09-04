@@ -1,5 +1,5 @@
 .article-body {
-    width: 800px;
+    width: 50rem;
     background-color: white;
     max-width: fit-content;
     margin-left: auto;
@@ -15,7 +15,7 @@
 .og-article {
     text-align: center;
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 1.5rem !important;
@@ -33,13 +33,13 @@
 .article-container {
     background-color: white;
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
     
 }
 
 iframe {
-    width: 640px;
-    height: 360px;
+    width: 40rem;
+    height: 22.5rem;
     margin: 0 auto; 
     display: block;
     border-style: none;
@@ -48,7 +48,7 @@ iframe {
 
 .figcaption-wrapper {
     font-family: "Exo 2", sans-serif !important;
-    padding: 7px;
+    padding: 0.438rem;
     color: #054569;
     font-weight: 400 !important;
     font-style: normal !important;
@@ -58,7 +58,7 @@ iframe {
 
 p {
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 1.5rem !important;
@@ -79,7 +79,7 @@ p {
 
 h2 {
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     color: 	#062c43  !important;
@@ -87,7 +87,7 @@ h2 {
 
 blockquote {
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     text-align: center;
@@ -97,7 +97,7 @@ blockquote {
 
 h4 {
     font-family: "Exo 2", sans-serif !important;
-    padding: 30px;
+    padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
     text-align: center;
@@ -108,6 +108,6 @@ h4 {
 
     .article-body {
         width: 100%;
-        padding: 10px;
+        padding: 0.625rem;
     }
 }

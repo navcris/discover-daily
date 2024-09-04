@@ -7,7 +7,7 @@
     background: #fff;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 1rem;
   }
   
   .header {
@@ -22,14 +22,14 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 70rem;
     width: 90%;
     margin: 0 auto;
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 3.125rem 0 2.5rem;
   }
   
   
