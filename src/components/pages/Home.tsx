@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <AllCards></AllCards>
+      <AllCards />
       <Footer></Footer>
     </>
   );

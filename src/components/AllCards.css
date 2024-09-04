@@ -33,20 +33,13 @@
   }
   
   
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
+ @media (max-width: 600px) {
+  .card-list {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    
   }
   
-  @media only screen and (min-width: 1024px) {
-    .cards__items {
-      display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
-    }
-  }
+ }

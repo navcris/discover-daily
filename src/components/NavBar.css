@@ -41,3 +41,29 @@ a{
     font-size: 3rem;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+.container-fluid {
+  flex-wrap: nowrap !important;
+}
+
+  .navbar-brand {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    width: auto;
+    
+    font-size: 2.4rem !important;
+}
+
+.d-inline-block {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.offcanvas-backdrop {
+  opacity: 0% !important;
+}
+}

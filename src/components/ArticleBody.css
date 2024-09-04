@@ -8,6 +8,10 @@
     
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .og-article {
     text-align: center;
     font-family: "Exo 2", sans-serif !important;
@@ -28,7 +32,8 @@
 
 .article-container {
     background-color: white;
-    
+    width: 100%;
+    padding: 10px;
     
 }
 
@@ -97,4 +102,12 @@ h4 {
     font-style: normal !important;
     text-align: center;
     color: #054569 !important;
+}
+
+@media (max-width: 600px) {
+
+    .article-body {
+        width: 100%;
+        padding: 10px;
+    }
 }

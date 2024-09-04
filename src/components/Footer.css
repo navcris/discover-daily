@@ -1,22 +1,40 @@
 .footer-container {
-    height: 200px;
-    background: #1a1818;
+    
+  background: #1a1818;
 }
 
+.custom-link {
+color:white !important;
+}
 .footer-brand {
-    font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.6rem !important;
-  color: white;
-  text-align: center;
-  padding: 3.5rem;
+  font-family: "Exo 2", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 2.6rem !important;
+color: white;
+text-align: center;
+padding: 3.5rem;
 }
 
 .text:hover {
-    -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
-  cursor: pointer;
+  -ms-transform: scale(1.05); /* IE 9 */
+-webkit-transform: scale(1.05); /* Safari 3-8 */
+transform: scale(1.05); 
+cursor: pointer;
+}
+
+@media (max-width: 600) {
+.footer-container {
+  width: 100%;
+}
+
+.custom-link {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.footer-brand {
+  margin: 10% !important;
+}
 }
