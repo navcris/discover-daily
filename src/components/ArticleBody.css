@@ -125,7 +125,7 @@ h4 {
         padding: 1.875rem;
         font-weight: 400 !important;
         font-style: normal !important;
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
 
     h4 {
@@ -135,6 +135,7 @@ h4 {
         font-style: normal !important;
         text-align: center;
         color: #054569 !important;
+        font-size: 1.5rem !important;
     }
 
     h2 {
@@ -143,6 +144,7 @@ h4 {
         font-weight: 400 !important;
         font-style: normal !important;
         color: 	#062c43  !important;
+        font-size: 1.5rem !important;
     }
     
     blockquote {
@@ -151,7 +153,7 @@ h4 {
         font-weight: 400 !important;
         font-style: normal !important;
         text-align: center;
-        font-size: 3rem;
+        font-size: 1.5rem;
         color: #054569;
     }
 
@@ -161,7 +163,7 @@ h4 {
         color: #054569;
         font-weight: 400 !important;
         font-style: normal !important;
-        font-size: 1rem !important; 
+        font-size: .8rem !important; 
         text-align: center;
         
     }
@@ -172,7 +174,7 @@ h4 {
         padding: 1.875rem;
         font-weight: 400 !important;
         font-style: normal !important;
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
     
     .og-link {
@@ -181,6 +183,6 @@ h4 {
         
         font-weight: 400 !important;
         font-style: normal !important;
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
 }

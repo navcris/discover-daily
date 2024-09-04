@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-brand">
-        <div className="text" onClick={handleClick}>
+        <div className="text" onClick={handleClick} id="footer-text">
           Take me to the Top
         </div>
       </div>
