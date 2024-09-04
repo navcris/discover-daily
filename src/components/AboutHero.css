@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     color: #fff;
-    width: 31.25rem !important;
+    width: 31.25rem;
     word-wrap: break-word;
   }
 
@@ -21,7 +21,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    font-size: 8rem !important;
+    font-size: 8rem;
   }
   
   .about-hero-container {
@@ -47,4 +47,26 @@
     color: #fff;
     font-size: 2rem;
     
+  }
+
+  @media (max-width: 600) {
+    
+    .about-main-title {
+      font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+      font-size: 5rem !important;
+    }
+
+    .about-title-container {
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      width: 5rem !important;
+      word-wrap: break-word;
+    }
+
   }

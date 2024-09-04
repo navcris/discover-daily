@@ -22,7 +22,7 @@ p {
     padding: 1.875rem;
     font-weight: 400 !important;
     font-style: normal !important;
-    font-size: 1.5rem !important;
+    font-size: 1.5rem ;
 }
 
 .about-article-wrapper {
@@ -52,4 +52,20 @@ p {
     font-style: normal !important;
     font-size: 1.5rem !important;
     text-decoration: none;
+}
+
+@media (max-width: 600) {
+    p {
+        font-family: "Exo 2", sans-serif !important;
+        padding: 1.875rem;
+        font-weight: 400 !important;
+        font-style: normal !important;
+        font-size: 1.2rem !important;
+    }
+
+    .about-picture {
+        display: block !important;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
 }
