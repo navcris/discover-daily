@@ -47,7 +47,7 @@ font-style: normal;
 
 @media (max-width: 600px) {
 body {
-  width: 150%;
+  width: 100%;
   margin: 0 !important;
   padding: 0% !important;
 

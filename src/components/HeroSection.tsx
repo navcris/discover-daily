@@ -5,7 +5,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="\earth.mp4" autoPlay loop muted />
+      <video src="\earth.mp4" autoPlay loop muted playsInline />
       <h1>Discover Daily</h1>
       <p>Explore. Learn. Discover.</p>
     </div>
