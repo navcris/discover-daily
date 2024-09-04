@@ -1,11 +1,8 @@
 .footer-container {
-    
   background: #1a1818;
 }
 
-.custom-link {
-color:white !important;
-}
+
 .footer-brand {
   font-family: "Exo 2", sans-serif;
 font-optical-sizing: auto;
@@ -29,12 +26,4 @@ cursor: pointer;
   width: 100%;
 }
 
-.custom-link {
-  text-decoration: none !important;
-  color: white !important;
-}
-
-.footer-brand {
-  margin: 10% !important;
-}
 }
