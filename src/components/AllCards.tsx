@@ -13,6 +13,7 @@ interface Article {
 const AllCards = () => {
   const [cards, setCards] = useState("triple");
   const [data, setData] = useState<Article[] | null>(null);
+  const [blurb, setBlurb] = useState('')
 
   useEffect(() => {
     fetch("https://flask-discover-backend-73452853f661.herokuapp.com/data")
@@ -29,6 +30,26 @@ const AllCards = () => {
       setCards("triple");
     }
   };
+
+  function  handleBlurb(content: string[]) {
+    let blurb = ''
+    let i = 1
+
+    while (i < content.length) {
+      if (content[i].length >= 55 && !content[i].toLowerCase().includes('credit')) {
+        blurb = content[i]
+        break
+      } else {
+        i++
+      }
+    }
+
+    if (blurb === '') {
+      blurb = content[1]
+    }
+    return blurb
+  }
+
 
   useEffect(() => {
     window.scroll(0, 0);
@@ -51,28 +72,28 @@ const AllCards = () => {
       >
         {data ? (
           data.map((item) => (
-            <Link
-              to={"/article/$" + item.title}
-              state={{
-                title: item.title || "No Title",
-                URL: item.URL || "No URL",
-                content: item.content || "No Article Body",
-              }}
-              className="custom-link"
-            >
+            // <Link
+            //   to={"/article/$" + item.title}
+            //   state={{
+            //     title: item.title || "No Title",
+            //     URL: item.URL || "No URL",
+            //     content: item.content || "No Article Body",
+            //   }}
+            //   className="custom-link"
+            // >
               <div>
                 <Card
                   Title={item.title || "Article Not Found"}
-                  Blurb={item.content[1].length < 55
-                      ? item.content[2]
-                      : item.content[1]}
+                  Blurb={handleBlurb(item.content)}
+                      content={item.content}
+                      URL={item.URL}
                   Img_src={`https://flask-discover-backend-73452853f661.herokuapp.com/imgs/${item.content[0].slice(
                     1
                   )}.jpg`}
                   key={item.title}
                 ></Card>
               </div>
-            </Link>
+            // </Link>
           ))
         ) : (
           <div></div>
